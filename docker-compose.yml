@@ -6,8 +6,5 @@ services:
     restart: always
     volumes:
       - 'data:/data'
-    ports:
-      - '12345:12345'
-      - '12345:12345/UDP'
 volumes:
   data: {}
